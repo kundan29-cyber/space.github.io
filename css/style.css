@@ -1,0 +1,47 @@
+*{
+
+	padding:0;
+	margin:0;
+
+}
+
+.clearfix:after{
+	content: "";
+	display:table;
+	clear:both;
+}
+
+body{
+	background-color: black;
+}
+
+@font-face {
+  	font-family: 'myfont';
+    src:  url('../fonts/04b_19.ttf.woff') format('woff'),
+    url('../fonts/04b_19.ttf.svg#04b_19') format('svg'),
+    url('../fonts/04b_19.ttf.eot'),
+    url('../fonts/04b_19.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.container{
+	font-family: 'myfont';
+	width:100%;
+	height: 100%;
+	position:absolute;
+	overflow: hidden;
+}
+
+.gamepanel{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin: 0 auto;
+	z-index: 0;
+}
+
+.shooter{
+	z-index: 999;
+}
